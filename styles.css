@@ -29,6 +29,13 @@
 body {
   font-family: "Kumbh Sans", sans-serif;
 }
+h2,
+h3 {
+  font-weight: 700;
+}
+h4 {
+  font-weight: 600;
+}
 /* Navigation Bar */
 #logo {
   margin-left: 30px;
@@ -93,18 +100,14 @@ footer h3 {
   white-space: nowrap; /* Prevent line breaks */
   overflow-x: auto; /* Enable horizontal scrolling */
 }
-#testimonials .card {
+
+.card {
   height: 100%;
 }
+
 .card-img-top {
   height: 40%;
   object-fit: cover;
-}
-#testimonials .card-body {
-  height: 60%;
-}
-.card-text {
-  overflow-wrap: break-word; /* Allows long words to break onto the next line */
 }
 
 /* Contact Us Page */
@@ -123,11 +126,10 @@ footer h3 {
 }
 
 .form-container h2 {
-  font-weight: 700;
   color: #055160;
 }
 
-.form-container .btn {
+.btn {
   background-color: #055160;
   border: none;
 }
