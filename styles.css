@@ -129,9 +129,13 @@ footer h3 {
   color: #055160;
 }
 
-.btn {
+.btn-primary {
   background-color: #055160;
   border: none;
+}
+
+.btn-primary:hover {
+  background-color: #97afb9;
 }
 
 .left-column {
