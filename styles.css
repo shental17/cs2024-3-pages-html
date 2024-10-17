@@ -1,0 +1,153 @@
+.sky-blue {
+  background-color: #6ebeda;
+}
+
+.non-photo-blue {
+  background-color: #93e2ff;
+}
+
+.cadet-gray {
+  background-color: #97afb9;
+}
+
+.charcoal {
+  background-color: #3a4856;
+}
+
+.black {
+  background-color: #08090a;
+}
+
+.gray {
+  background-color: #dee2e6;
+}
+
+.text-cadet-gray {
+  color: #3a4856;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+}
+h2,
+h3 {
+  font-weight: 700;
+}
+h4 {
+  font-weight: 600;
+}
+/* Navigation Bar */
+#logo {
+  margin-left: 30px;
+}
+
+#navbarSupportedContent a {
+  font-family: "Kumbh Sans", Georgia, "Times New Roman", serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#navbar-pad {
+  margin-bottom: 20px;
+}
+
+.dropdown-menu a {
+  font-weight: normal;
+  color: #3a4856;
+  font-size: 18px;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+#navbar-button {
+  padding: 10px 30px 10px 30px;
+  width: 180px;
+  background-color: #3a4856;
+  border: 0px;
+  margin: 0px 10px;
+}
+
+#navbar-button:hover {
+  background-color: #155291;
+}
+
+.navbar-link {
+  margin-top: 2px;
+  margin-right: 30px;
+  color: #3a4856;
+}
+
+/* Footer */
+footer {
+  margin: 96px 0px;
+}
+footer h3 {
+  font-weight: 700;
+}
+footer .get-connected-icons i {
+  font-size: 24px;
+}
+footer .text-body-secondary,
+footer h3 {
+  color: #ffffff !important;
+}
+
+/* Testimonial Page*/
+.scrollable-div {
+  width: 100%;
+  white-space: nowrap; /* Prevent line breaks */
+  overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+.card {
+  height: 100%;
+}
+
+.card-img-top {
+  height: 40%;
+  object-fit: cover;
+}
+
+/* Contact Us Page */
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.form-container {
+  border-radius: 16px;
+  border: none;
+  box-shadow: 0px 4px 4px #c0c0c0;
+}
+
+.form-container h2 {
+  color: #055160;
+}
+
+.btn-primary {
+  background-color: #055160;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #97afb9;
+}
+
+.left-column {
+  background-color: #e9ecef;
+  border-radius: 16px 0px 0px 16px;
+}
+
+.left-column i {
+  font-size: 24px;
+}
+
+.left-column .get-connected-icons i {
+  font-size: 40px;
+  margin: 8px 12px;
+}
